@@ -120,7 +120,7 @@ Edit the file: `Update-PPTXLinks.psd1` if you want to change this folder name.
 <hr style="width: 33%">
 
 ### Folders section in the configuration file
-All folders are in: **[MyDocuments]\Projects\ChangeLinks**.
+All folders are in: **C:\Temp\ChangeLinks**.
 
 If you want to change that, change values below.
 
@@ -173,7 +173,10 @@ AllLinks
 ## How To change your PPTX (Configure the parameters)
 ### Check and change the URLs
 Check the config file: **PPTXChanger.pds1**.\
-Change the URLs you have to.
+Change the URLs you have to.\
+BE AWARE of the ORDER of CHANGE! One at a time.\
+You can accidently change something unexpected.
+
 <hr style="width: 33%">
 
 ### Copy your PPTX files
