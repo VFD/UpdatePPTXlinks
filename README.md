@@ -2,6 +2,9 @@
 # Update-PPTXLinks
 
 <div style="text-align: center;">&#128679; This is a work in progress &#128679;
+
+[Paypal Donate](https://www.paypal.com/donate/?business=5LX8QALBQH58U&no_recurring=0&currency_code=EUR)
+
 </div>
 
 
@@ -180,7 +183,7 @@ You can accidently change something unexpected.
 <hr style="width: 33%">
 
 ### Copy your PPTX files
-Put your PPTX file in this directory: ***C:\Temp\ChangeLinks**.\
+Put your PPTX file in this directory: **C:\Temp\ChangeLinks**.\
 Except if you have change it.
 <hr style="width: 33%">
 
