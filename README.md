@@ -22,7 +22,7 @@ Process description:
 ```mermaid
 %%{init: {'theme': 'forest'} }%%
 stateDiagram-v2
-    direction LR
+     
     S: Change all PPTX URLs in files
     M: For each slide file and link file (xml)
     R: Read folder \nfor PPTX files
@@ -35,19 +35,19 @@ stateDiagram-v2
     ML: Modify \nLink files
     RF: Rename the file\n(".zip" to ".pptx")
     state S { 
-        direction LR
+         
         state if_state <<choice>>
         [*] --> R
         R --> if_state
         if_state --> FEF: file(s) found
         if_state --> [*]: No file found
         state FEF {
-            direction LR
+             
             CR --> U
             U --> DZ
             DZ --> M
             state M {
-                direction LR
+                 
                 MS --> ML
             }
             M --> Z

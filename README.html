@@ -155,7 +155,7 @@ This process <strong>does not need</strong> to have <strong>PowerPoint</strong> 
 <p>Process description:</p>
 <pre style="all:unset;"><div class="mermaid">%%{init: {'theme': 'forest'} }%%
 stateDiagram-v2
-    direction LR
+     
     S: Change all PPTX URLs in files
     M: For each slide file and link file (xml)
     R: Read folder \nfor PPTX files
@@ -168,19 +168,19 @@ stateDiagram-v2
     ML: Modify \nLink files
     RF: Rename the file\n(".zip" to ".pptx")
     state S { 
-        direction LR
+         
         state if_state &lt;&lt;choice&gt;&gt;
         [*] --&gt; R
         R --&gt; if_state
         if_state --&gt; FEF: file(s) found
         if_state --&gt; [*]: No file found
         state FEF {
-            direction LR
+             
             CR --&gt; U
             U --&gt; DZ
             DZ --&gt; M
             state M {
-                direction LR
+                 
                 MS --&gt; ML
             }
             M --&gt; Z
