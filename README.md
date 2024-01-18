@@ -180,7 +180,7 @@ You can accidently change something unexpected.
 <hr style="width: 33%">
 
 ### Copy your PPTX files
-Put your PPTX file in this directory: **[MyDocuments]\Projects\ChangeLinks**.\
+Put your PPTX file in this directory: ***C:\Temp\ChangeLinks**.\
 Except if you have change it.
 <hr style="width: 33%">
 
