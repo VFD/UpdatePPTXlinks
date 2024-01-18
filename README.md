@@ -13,15 +13,6 @@ Can change multiple URL at a time.\
 This process **does not need** to have **PowerPoint** on the machine where is it executed.
 <hr style="width: 33%">
 
-## Version
-
-**PowerShell** script version: **v1.0.0**
-<hr style="width: 33%">
-
-## Licence
-GPL, MIT, ?
-<hr style="width: 33%">
-
 ## Process
 Process description:
 
@@ -66,16 +57,15 @@ stateDiagram-v2
 <hr style="width: 33%">
 
 ## Install
-Dezip the files in your PowerShell `Scripts` folder.
 
-```powershell
-[yourDocuments]\WindowsPowerShell\Scripts
-```
+Download the files.
+
+Unzip the files somwhere.
 
 <hr style="width: 33%">
 
 ## Files
-There is now 4 files in the `Scripts` folder, see table below.
+There is now 5 files in the folder, see table below.
 
 <details open>
 <summary>Table of files</summary>
@@ -89,6 +79,15 @@ README.html | HTML file from Markdown
 LICENCE | Licence file
 
 </details>
+
+You can rename "README.*" by "Update-PPTXLinks", because may be you can have a lot of README and you want to preserve the How To.
+
+Copy in your PowerShell `Scripts` folder.
+
+```powershell
+[yourDocuments]\WindowsPowerShell\Scripts
+```
+
 
 <hr style="width: 33%">
 
